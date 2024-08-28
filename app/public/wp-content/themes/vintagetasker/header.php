@@ -11,7 +11,7 @@
         <div class="container">
             <div class="site-branding">
                 <a href="<?php echo home_url(); ?>" class="site-logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/taske.jpg" alt="<?php bloginfo('name'); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
                 </a>
             </div>
             <nav class="main-navigation">

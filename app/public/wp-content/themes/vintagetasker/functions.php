@@ -1,4 +1,5 @@
 <?php
+
 function blog_theme_setup() {
     // Add support for title tag
     add_theme_support("title-tag");
@@ -19,3 +20,6 @@ function blog_theme_load_resources() {
     // wp_enqueue_script("blog-theme-script", get_template_directory_uri() . "/js/script.js", array('jquery'), null, true);
 }
 add_action("wp_enqueue_scripts", "blog_theme_load_resources");
+
+
+

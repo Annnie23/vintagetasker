@@ -7,6 +7,7 @@ Description: A WordPress theme for Vintage Tasker
 /* Anvend skrifttypen på hele siden */
 body {
     font-family: 'Roboto', sans-serif; /* Erstat 'Roboto' med din ønskede skrifttype */
+    margin: 0;
 }
 
 h1 {
@@ -29,7 +30,6 @@ p {
     line-height: 1.6;
 }
 
-
 /* Eksempel på forskellige skrifttyper for forskellige elementer */
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif; /* Skrifttype for overskrifter */
@@ -42,7 +42,7 @@ p, li, span {
 
 /* Header Styling */
 .site-header {
-    background-color: #333;
+    background-color: #f2f2f2;
     color: #fff;
     padding: 20px 0;
 }
@@ -72,9 +72,17 @@ p, li, span {
 }
 
 .main-navigation a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.main-navigation img {
+    margin-left: 8px; /* Afstand mellem tekst og ikon */
+    height: 16px; /* Juster højden på ikonet efter behov */
+    width: auto; /* Bevarer billedets proportioner */
 }
 
 .main-navigation a:hover {
@@ -87,6 +95,7 @@ p, li, span {
     margin: 0 auto;
     overflow: hidden;
 }
+
 
 
 /* Footer Styling */
@@ -229,15 +238,17 @@ p, li, span {
 /* Om os Section Styling */
 .about-section {
     padding: 50px 0;
-    text-align: center;
+    text-align: left;
     background-color: #f2f2f2;
 }
 
 .about-title {
-    font-size: 36px;
+    font-size: 50px;
     color: #222;
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
+    padding: 0 20px;
+
 }
 
 .section-title {
@@ -245,16 +256,18 @@ p, li, span {
     color: #333;
     margin-top: 40px;
     margin-bottom: 20px;
-    text-align: center;
+    padding: 0 20px;
+    text-align: left;
 }
 
 .section-content {
     font-size: 18px;
-    color: #555;
+    color: #333;
     max-width: 800px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0 20px;
-    text-align: center;
+    text-align: left;
+
 }
 
 
@@ -285,36 +298,57 @@ p, li, span {
 .blog-list {
     padding: 60px 20px;
     background-color: #fafafa;
+    
 }
 
 .blog-list h1 {
-    font-size: 36px;
+    font-size: 50px;
     color: #333;
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
 }
 
 .post-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
 .post {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 60px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.post-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .post h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .post h2 a {
-    color: #0073e6;
+    color: #fff;
     text-decoration: none;
+
 }
 
 .post h2 a:hover {
@@ -323,13 +357,14 @@ p, li, span {
 
 .excerpt {
     font-size: 16px;
-    color: #666;
+    color: #ddd;
 }
 
 .pagination {
     text-align: center;
     margin-top: 40px;
 }
+
 
 /* Blog Enkeltindlæg Styling */
 .single-post {
@@ -432,17 +467,26 @@ p, li, span {
     margin-bottom: 10px;
 }
 
+.post-categories strong, .post-tags strong {
+    display: none;
+}
+
+.post-categories a{
+    text-decoration: none;
+    color: #9DA65D;
+}
+
 .post-categories strong,
 .post-tags strong {
     color: #333;
 }
 
 .post-tags a {
-    background-color: #f0f0f0;
+    background-color: #9DA65D;
     padding: 5px 10px;
     border-radius: 3px;
     text-decoration: none;
-    color: #0073e6;
+    color: #ffffff;
 }
 
 .post-tags a:hover {
@@ -483,4 +527,44 @@ p, li, span {
 
 .error-404 ul li a:hover {
     text-decoration: underline;
+}
+
+.image-row {
+    display: flex;
+    justify-content: left; /* Sørger for lige afstand mellem billederne */
+    gap: 20px; /* Afstand mellem billederne */
+    margin-bottom: 40px; /* Ekstra afstand under billedrække */
+    max-width: 100%; /* Gør, at containeren ikke overskrider sidens bredde */
+    padding: 20px;
+}
+
+.section-image {
+    
+    max-width: 350px; /* Sætter en maks. bredde på billederne */
+    height: auto; /* Beholder billedets proportioner */
+    border-radius: 8px; /* Afrundede hjørner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tilføjer en subtil skygge */
+}
+
+
+
+
+.support-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.support-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Tilføj eventuel styling for Contact Form 7 formular */
+.wpcf7-form {
+    max-width: auto;
+    margin: 0 auto;
 }

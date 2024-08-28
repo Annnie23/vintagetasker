@@ -12,16 +12,22 @@ get_header();
             <div class="post-list">
                 <?php while (have_posts()) : the_post(); ?>
                     <div class="post">
-                        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                        <div class="excerpt">
-                            <?php the_excerpt(); ?>
-                        </div>
-                        <div class="post-meta">
-                            <div class="post-categories">
-                                <strong>Categories:</strong> <?php the_category(', '); ?>
+                        <?php if (has_post_thumbnail()) : ?>
+                            <img src="<?php the_post_thumbnail_url('large'); ?>" alt="<?php the_title_attribute(); ?>">
+                        <?php endif; ?>
+
+                        <div class="post-info">
+                            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                            <div class="excerpt">
+                                <?php the_excerpt(); ?>
                             </div>
-                            <div class="post-tags">
-                                <strong>Tags:</strong> <?php the_tags('', ', ', ''); ?>
+                            <div class="post-meta">
+                                <div class="post-categories">
+                                    <strong>Categories:</strong> <?php the_category(', '); ?>
+                                </div>
+                                <div class="post-tags">
+                                    <strong>Tags:</strong> <?php the_tags('', ', ', ''); ?>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -18,12 +18,17 @@ get_header();
                 $vores_historie_content = get_field('vores_historie_content');
                 $vores_kvalitet_titel = get_field('vores_kvalitet_titel');
                 $vores_kvalitet_content = get_field('vores_kvalitet_content');
+                $billede_1 = get_field('billede_1');
+                $billede_2 = get_field('billede_2');
+                $billede_3 = get_field('billede_3');
                 $baeredygtighed_titel = get_field('baeredygtighed_titel');
                 $baeredygtighed_content = get_field('baeredygtighed_content');
                 $engagement_titel = get_field('engagement_titel');
                 $engagement_content = get_field('engagement_content');
                 $tak_titel = get_field('tak_titel');
                 $tak_content = get_field('tak_content');
+                $billede_4 = get_field('billede_4');
+                $billede_5 = get_field('billede_5');
 
                 if ($om_os_titel) {
                     echo '<h1 class="about-title">' . esc_html($om_os_titel) . '</h1>';
@@ -53,6 +58,18 @@ get_header();
                     echo '<div class="section-content">' . wp_kses_post($vores_kvalitet_content) . '</div>';
                 }
 
+                echo '<div class="image-row">';
+                if ($billede_1) {
+                    echo '<img src="' . esc_url($billede_1['url']) . '" alt="' . esc_attr($billede_1['alt']) . '" class="section-image">';
+                }
+                if ($billede_2) {
+                    echo '<img src="' . esc_url($billede_2['url']) . '" alt="' . esc_attr($billede_2['alt']) . '" class="section-image">';
+                }
+                if ($billede_3) {
+                    echo '<img src="' . esc_url($billede_3['url']) . '" alt="' . esc_attr($billede_3['alt']) . '" class="section-image">';
+                }
+                echo '</div>';
+
                 if ($baeredygtighed_titel) {
                     echo '<h2 class="section-title">' . esc_html($baeredygtighed_titel) . '</h2>';
                 }
@@ -76,6 +93,17 @@ get_header();
                 if ($tak_content) {
                     echo '<div class="section-content">' . wp_kses_post($tak_content) . '</div>';
                 }
+
+                
+                echo '<div class="image-row">';
+                if ($billede_4) {
+                    echo '<img src="' . esc_url($billede_4['url']) . '" alt="' . esc_attr($billede_4['alt']) . '" class="section-image">';
+                }
+                if ($billede_5) {
+                    echo '<img src="' . esc_url($billede_5['url']) . '" alt="' . esc_attr($billede_5['alt']) . '" class="section-image">';
+                }
+                
+                echo '</div>';
 
             endwhile;
         endif;
