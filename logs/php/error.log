@@ -379,3 +379,84 @@ Stack trace:
 #6 C:\Users\norde\Local Sites\vintagetasker\app\public\index.php(17): require('C:\\Users\\norde\\...')
 #7 {main}
   thrown in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\header.php on line 23
+[04-Sep-2024 07:24:16 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:24:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[04-Sep-2024 07:24:16 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[04-Sep-2024 07:25:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:26:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:27:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:28:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:28 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:28 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:28 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:34 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:29:34 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\functions.php on line 24
+[04-Sep-2024 07:44:20 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:44:20 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:44:20 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:44:20 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:44:20 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:44:23 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:44:23 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:44:23 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:44:23 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:44:23 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:44:36 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:44:36 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:44:36 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:44:36 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:44:36 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:44:39 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:44:39 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:44:39 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:44:39 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:44:39 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:46:03 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:46:03 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:46:03 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:46:03 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:46:03 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:50:37 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:50:37 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:50:37 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:50:37 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:50:37 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:52:45 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:52:45 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:52:45 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:52:45 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:52:45 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:55:42 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:55:42 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:55:42 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:55:42 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:55:42 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:55:47 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:55:47 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:55:47 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:55:47 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:55:47 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:55:49 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:55:49 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:55:49 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:55:49 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:55:49 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:57:12 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:57:12 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:57:12 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:57:12 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:57:12 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:57:34 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:57:34 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:57:34 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:57:34 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:57:34 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 07:57:40 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[04-Sep-2024 07:57:40 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[04-Sep-2024 07:57:40 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[04-Sep-2024 07:57:40 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[04-Sep-2024 07:57:40 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[04-Sep-2024 08:02:14 UTC] Multilingual Contact Form 7 with Polylang plugin_activation

@@ -7,31 +7,25 @@ get_header();
 
     <div class="about-section">
         <?php
-        // ACF kode for at trække brugerdefineret indhold
         if (have_posts()) :
             while (have_posts()) : the_post();
 
-                $om_os_titel = get_field('om_os_titel');
-                $velkommen_titel = get_field('velkommen_titel');
-                $velkommen_content = get_field('velkommen_content');
-                $vores_historie_titel = get_field('vores_historie_titel');
-                $vores_historie_content = get_field('vores_historie_content');
-                $vores_kvalitet_titel = get_field('vores_kvalitet_titel');
-                $vores_kvalitet_content = get_field('vores_kvalitet_content');
-                $billede_1 = get_field('billede_1');
-                $billede_2 = get_field('billede_2');
-                $billede_3 = get_field('billede_3');
-                $baeredygtighed_titel = get_field('baeredygtighed_titel');
-                $baeredygtighed_content = get_field('baeredygtighed_content');
-                $engagement_titel = get_field('engagement_titel');
-                $engagement_content = get_field('engagement_content');
-                $tak_titel = get_field('tak_titel');
-                $tak_content = get_field('tak_content');
-                $billede_4 = get_field('billede_4');
-                $billede_5 = get_field('billede_5');
+                $om_os_titel = pll__(get_field('om_os_titel'));
+                $velkommen_titel = pll__(get_field('velkommen_titel'));
+                $velkommen_content = pll__(get_field('velkommen_content'));
+                $vores_historie_titel = pll__(get_field('vores_historie_titel'));
+                $vores_historie_content = pll__(get_field('vores_historie_content'));
+                $vores_kvalitet_titel = pll__(get_field('vores_kvalitet_titel'));
+                $vores_kvalitet_content = pll__(get_field('vores_kvalitet_content'));
+                $baeredygtighed_titel = pll__(get_field('baeredygtighed_titel'));
+                $baeredygtighed_content = pll__(get_field('baeredygtighed_content'));
+                $engagement_titel = pll__(get_field('engagement_titel'));
+                $engagement_content = pll__(get_field('engagement_content'));
+                $tak_titel = pll__(get_field('tak_titel'));
+                $tak_content = pll__(get_field('tak_content'));
 
                 if ($om_os_titel) {
-                    echo '<h1 class="about-title">' . esc_html($om_os_titel) . '</h1>';
+                    echo '<h1 class="about- title">' . esc_html($om_os_titel) . '</h1>';
                 }
 
                 if ($velkommen_titel) {
@@ -94,7 +88,6 @@ get_header();
                     echo '<div class="section-content">' . wp_kses_post($tak_content) . '</div>';
                 }
 
-                
                 echo '<div class="image-row">';
                 if ($billede_4) {
                     echo '<img src="' . esc_url($billede_4['url']) . '" alt="' . esc_attr($billede_4['alt']) . '" class="section-image">';
@@ -102,7 +95,6 @@ get_header();
                 if ($billede_5) {
                     echo '<img src="' . esc_url($billede_5['url']) . '" alt="' . esc_attr($billede_5['alt']) . '" class="section-image">';
                 }
-                
                 echo '</div>';
 
             endwhile;

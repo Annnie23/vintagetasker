@@ -22,6 +22,15 @@
                     'container'      => false,
                 ));
                 ?>
+
+                
+    <div class="language-switcher-container">
+        <select class="language-switcher" onchange="location = this.value;">
+            <option value="/da/">Dansk</option>
+            <option value="/en/">English</option>
+        </select>
+    </div>
+
             </nav>
         </div>
     </header>

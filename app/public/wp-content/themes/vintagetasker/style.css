@@ -568,3 +568,23 @@ p, li, span {
     max-width: auto;
     margin: 0 auto;
 }
+
+
+
+.language-switcher-container {
+    width: 100%; /* Sørger for at dropdown-menuen er tilgængelig i fuld bredde */
+}
+
+.language-switcher {
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    width: auto; /* Dropdown-menuen vil have en automatisk bredde, der passer til indholdet */
+    display: flex;
+    
+}

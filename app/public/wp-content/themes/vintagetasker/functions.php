@@ -22,4 +22,23 @@ function blog_theme_load_resources() {
 add_action("wp_enqueue_scripts", "blog_theme_load_resources");
 
 
+function my_custom_register_strings() {
+    pll_register_string('om_os_titel', 'Om os titel', 'my-text-domain');
+    pll_register_string('velkommen_titel', 'Velkommen titel', 'my-text-domain');
+    pll_register_string('velkommen_content', 'Velkommen content', 'my-text-domain');
+    pll_register_string('vores_historie_titel', 'Vores historie titel', 'my-text-domain');
+    pll_register_string('vores_historie_content', 'Vores historie content', 'my-text-domain');
+    pll_register_string('vores_kvalitet_titel', 'Vores kvalitet titel', 'my-text-domain');
+    pll_register_string('vores_kvalitet_content', 'Vores kvalitet content', 'my-text-domain');
+    pll_register_string('baeredygtighed_titel', 'Bæredygtighed titel', 'my-text-domain');
+    pll_register_string('baeredygtighed_content', 'Bæredygtighed content', 'my-text-domain');
+    pll_register_string('engagement_titel', 'Engagement titel', 'my-text-domain');
+    pll_register_string('engagement_content', 'Engagement content', 'my-text-domain');
+    pll_register_string('tak_titel', 'Tak titel', 'my-text-domain');
+    pll_register_string('tak_content', 'Tak content', 'my-text-domain');
+}
+add_action('init', 'my_custom_register_strings');
+
+
+
 
