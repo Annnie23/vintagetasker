@@ -56,9 +56,16 @@ p, li, span {
 }
 
 .main-navigation {
-    float: right;
+    display: flex; /* Brug flexbox for at justere elementerne */
+    justify-content: flex-end; /* Juster indholdet til højre */
+    align-items: center; /* Vertikal centrering */
     margin-top: 10px;
 }
+
+.language-switcher-container {
+    margin-left: 20px; /* Plads mellem menupunkterne og sprogskifteren */
+}
+
 
 .main-navigation ul {
     list-style: none;
@@ -95,6 +102,7 @@ p, li, span {
     margin: 0 auto;
     overflow: hidden;
 }
+
 
 
 
@@ -142,77 +150,6 @@ p, li, span {
 }
 
 
-/* Hero Section Styling */
-.hero-section {
-    background-image: url('path/to/your/hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-}
-
-.hero-title {
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-/* Brands Section Styling */
-.brands-section {
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f9f9f9;
-}
-
-.brands-title {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* Mærker Section Styling */
-.brands-section {
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f2f2f2;
-}
-
-.brands-title {
-    font-size: 40px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.brands-content {
-    font-size: 18px;
-    color: #666;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-/* Model Section Styling */
-.model-section {
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f2f2f2;
-}
-
-.model-title {
-    font-size: 40px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.model-content {
-    font-size: 18px;
-    color: #666;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
 
 /* Shop Section Styling */
 .shop-section {
@@ -569,22 +506,172 @@ p, li, span {
     margin: 0 auto;
 }
 
-
-
-.language-switcher-container {
-    width: 100%; /* Sørger for at dropdown-menuen er tilgængelig i fuld bredde */
-}
-
-.language-switcher {
-    padding: 5px;
-    margin: 0;
-    border: 1px solid #000;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #000;
-    font-size: 14px;
-    cursor: pointer;
-    width: auto; /* Dropdown-menuen vil have en automatisk bredde, der passer til indholdet */
+/* Container for the entire brand section */
+.box-section {
+    padding: 40px;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;  
+  }
+  
+  .box {
+    position: relative;
+    background-color: #f0f0f0; /* Light background for contrast */
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+  }
+  
+  .box img {
+    width: 100%; /* Billedet fylder hele bredden af boksen */
+  height: 100%; /* Sørg for, at billedet fylder hele højden af boksen */
+  object-fit: cover; /* Dette sørger for, at billedet bevarer proportionerne */
+  display: block;
+  }
+  
+  .box-title {
+    position: absolute;
+    bottom: 60px; /* Place text above the button */
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .shop-button {
+    position: absolute;
+    bottom: 10px; /* Position the button at the bottom */
+    left: 25%;
+    transform: translateX(-50%);
+    background-color: #a8ad47;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-button:hover {
+    background-color: #949c3e; /* Darker on hover */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .box-container {
+      flex-wrap: wrap; /* Stack cards on smaller screens */
+    }
+  
+    .box {
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Container for shop section */
+.shop-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
 }
+
+/* Each box for shop or tilbud */
+.shop-box {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 700px; /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Styling for the images */
+.shop-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+/* Text overlay styling */
+.shop-text {
+    position: absolute;
+    bottom: 60px; /* Place text above the button */
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shop-text p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.shop-text h2 {
+    font-size: 22px;
+    margin: 5px 0 10px;
+    font-weight: bold;
+}
+
+.shop-button2 {
+    display: inline-block;  /* Gør knappen til en blok for bedre kontrol */
+    padding: 30px 60px;    /* Juster padding for at gøre knappen større */
+    font-size: 16px;        /* Juster skriftstørrelse */
+    background-color: #a8ad47; /* Baggrundsfarve (ændr efter behov) */
+    color: white;           /* Tekstfarve */
+    text-align: center;     /* Centrer tekst i knappen */
+    text-decoration: none;   /* Fjern understregning */
+    border-radius: 5px;    /* Runde hjørner */
+    transition: background-color 0.3s; /* Animer baggrundsfarve ved hover */
+}
+
+.shop-button2:hover {
+    background-color: #3c3e14; /* Mørkere grøn ved hover */
+}
+
+
+/* Image fade effect when hovering over the box */
+.shop-box:hover .shop-img {
+    opacity: 0.8;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .shop-section {
+        flex-direction: column;
+    }
+
+    .shop-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.hero-title{
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+
+

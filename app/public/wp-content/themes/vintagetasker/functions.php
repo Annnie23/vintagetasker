@@ -22,6 +22,8 @@ function blog_theme_load_resources() {
 add_action("wp_enqueue_scripts", "blog_theme_load_resources");
 
 
+
+
 function my_custom_register_strings() {
     pll_register_string('om_os_titel', 'Om os titel', 'my-text-domain');
     pll_register_string('velkommen_titel', 'Velkommen titel', 'my-text-domain');
