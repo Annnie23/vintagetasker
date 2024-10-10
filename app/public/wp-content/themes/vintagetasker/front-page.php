@@ -30,6 +30,41 @@ get_header();
     ?>
   </div>
 
+    
+    <div class="shop-section">
+    <?php
+    $loop = new WP_Query(array(
+        'post_type' => 'product',
+        'posts_per_page' => 4
+    ));
+
+    if ($loop->have_posts()) : ?>
+        <div class="products-wrapper">
+        <?php while ($loop->have_posts()) : $loop->the_post();
+            global $product;
+            $title = get_the_title();
+            $excerpt = get_the_excerpt();
+            $price = $product->get_price_html();
+            $link = get_permalink();
+            $image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
+        ?>
+            <div class="product">
+                <a href="<?php echo $link; ?>">
+                    <img src="<?php echo $image[0]; ?>" alt="<?php echo esc_attr($title); ?>" class="product-image" />
+                    <h3><?php echo esc_html($title); ?></h3>
+                    <p><?php echo wp_kses_post($excerpt); ?></p>
+                    <span class="price"><?php echo wp_kses_post($price); ?></span>
+                    <button class="buy-now">Buy Now</button>
+                </a>
+            </div>
+        <?php endwhile; ?>
+        </div>
+    <?php
+    endif;
+    wp_reset_postdata();
+    ?>
+  </div>
+
   <?php
   $maerke1 = get_field('maerke1');
   $maerke2 = get_field('maerke2');
