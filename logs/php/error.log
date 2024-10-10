@@ -586,3 +586,19 @@ Stack trace:
 [02-Oct-2024 08:57:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\front-page.php on line 145
 [02-Oct-2024 08:57:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\front-page.php on line 160
 [02-Oct-2024 08:57:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\front-page.php on line 160
+[09-Oct-2024 06:20:21 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[09-Oct-2024 06:20:21 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[09-Oct-2024 06:20:21 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[09-Oct-2024 06:20:21 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[09-Oct-2024 06:20:21 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[09-Oct-2024 06:27:17 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[09-Oct-2024 06:27:17 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[09-Oct-2024 06:27:17 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[09-Oct-2024 06:27:17 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[09-Oct-2024 06:27:17 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[09-Oct-2024 06:50:51 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-includes\class-wp-customize-widgets.php on line 905

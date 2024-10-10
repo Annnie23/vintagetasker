@@ -1,0 +1,353 @@
+0000.001 (0) Opened log file at time: Wed, 09 Oct 2024 06:19:22 +0000 on http://vintagetasker.local
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.1 PHP: 8.1.29 (cgi-fcgi, Windows NT ANNE-PC 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.4M | 8M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 40974.6 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.024 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.047 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1727852226, seconds_ago=602536)
+0000.055 (0) Set semaphore last lock (fd) time to 2024-10-09 06:19:22
+0000.057 (0) Semaphore lock (fd) complete
+0000.063 (0) Backup run: resumption=0, nonce=fee9ae7175ac, file_nonce=fee9ae7175ac begun at=1728454762 (0s ago), job type=backup
+0000.069 (0) Scheduling a resumption (1) after 300 seconds (1728455062) in case this run gets aborted
+0000.112 (0) Checking if we have a zip executable available
+0000.117 (0) Creation of backups of directories: beginning
+0000.127 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.492 (0) Total entities for the zip file: 537 directories, 3381 files (0 skipped as non-modified), 59.5 MB
+0001.528 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.560 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.591 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.622 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.656 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.684 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.714 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.742 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.770 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.798 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.801 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.5 MB, 3381 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0010.451 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1100 files added (on-disk size: 6730.5 KB)
+0010.481 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1200 files added (on-disk size: 6730.5 KB)
+0010.518 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1300 files added (on-disk size: 6730.5 KB)
+0010.551 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1400 files added (on-disk size: 6730.5 KB)
+0010.583 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1500 files added (on-disk size: 6730.5 KB)
+0010.615 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1600 files added (on-disk size: 6730.5 KB)
+0010.651 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1700 files added (on-disk size: 6730.5 KB)
+0010.684 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1800 files added (on-disk size: 6730.5 KB)
+0010.720 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 1900 files added (on-disk size: 6730.5 KB)
+0010.753 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2000 files added (on-disk size: 6730.5 KB)
+0010.757 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.7 MB, 3381 files batched, 1001 (2002) added so far); re-opening (prior size: 6730.5 KB)
+0026.105 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2100 files added (on-disk size: 9802.9 KB)
+0026.139 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2200 files added (on-disk size: 9802.9 KB)
+0026.173 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2300 files added (on-disk size: 9802.9 KB)
+0026.208 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2400 files added (on-disk size: 9802.9 KB)
+0026.242 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2500 files added (on-disk size: 9802.9 KB)
+0026.274 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2600 files added (on-disk size: 9802.9 KB)
+0026.308 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2700 files added (on-disk size: 9802.9 KB)
+0026.341 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2800 files added (on-disk size: 9802.9 KB)
+0026.372 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 2900 files added (on-disk size: 9802.9 KB)
+0026.403 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 3000 files added (on-disk size: 9802.9 KB)
+0026.407 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.8 MB, 3381 files batched, 1001 (3003) added so far); re-opening (prior size: 9802.9 KB)
+0046.752 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 3100 files added (on-disk size: 16798.1 KB)
+0046.781 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 3200 files added (on-disk size: 16798.1 KB)
+0046.813 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.tmp: 3300 files added (on-disk size: 16798.1 KB)
+0054.515 (0) Creating zip file manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.list-temp.tmp)
+0054.529 (0) Successfully created zip file manifest (size: 270822)
+0054.695 (0) Created plugins zip (0) - 17707.9 KB in 54.6 s (324.6 KB/s) (sha1: e29b5c224a87c0a6a0136a141dd0b8b88fb7867d, sha256: be660e7d16984e4fca575c576226614cabcd9307f00b3b46b64a86570dd8919a)
+0054.708 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0054.710 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-f44b4cf17e9b61cc41ef12e3a074be3a)
+0054.713 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0055.116 (0) Successfully updated and refreshed the access token
+0055.118 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0055.495 (0) Dropbox: quota usage: used=1737.3 MB, total=2048 MB, available=310.7 MB
+0055.498 (0) Dropbox: Attempt to upload: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip to: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip
+0057.343 (0) Dropbox chunked upload: 5.8 % uploaded (pid_upload_session:ABIIV6LytTVCBp-KAzovhLk6Ee00aJmvSVmCONV2OEVgNAXgKw, 1048576, 4608 KB)
+0059.577 (0) Dropbox chunked upload: 31.8 % uploaded (pid_upload_session:ABIIV6LytTVCBp-KAzovhLk6Ee00aJmvSVmCONV2OEVgNAXgKw, 5767168, 10240 KB)
+0062.592 (0) Dropbox chunked upload: 89.6 % uploaded (pid_upload_session:ABIIV6LytTVCBp-KAzovhLk6Ee00aJmvSVmCONV2OEVgNAXgKw, 16252928, 10240 KB)
+0064.890 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIV6LytTVCBp-KAzovhLk6Ee00aJmvSVmCONV2OEVgNAXgKw, 18132867, 10240 KB)
+0066.706 (0) Recording as successfully uploaded: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip
+0066.713 (0) Deleting local file: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip: OK
+0066.715 (0) Dropbox: File upload success (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip): 17707 KB in 11s (1578 KB/s)
+0066.729 (0) Beginning creation of dump of themes (split every: 400 MB)
+0066.842 (0) Total entities for the zip file: 41 directories, 306 files (0 skipped as non-modified), 12 MB
+0066.877 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0066.911 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0066.945 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0071.403 (0) Creating zip file manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip.list-temp.tmp)
+0071.408 (0) Successfully created zip file manifest (size: 21322)
+0071.510 (0) Created themes zip (0) - 10992.1 KB in 4.8 s (2301.8 KB/s) (sha1: 1b18eea6f57bab83e1a7c3ac6e620ba6d611f800, sha256: 863b686bc4b9c9f53ef3fac84293b7d082a2b3bcef14590b455d439be16ba903)
+0071.520 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0071.522 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-f44b4cf17e9b61cc41ef12e3a074be3a)
+0071.524 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0071.528 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0071.828 (0) Dropbox: quota usage: used=1754.6 MB, total=2048 MB, available=293.4 MB
+0071.831 (0) Dropbox: Attempt to upload: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip to: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip
+0074.316 (0) Dropbox chunked upload: 93.2 % uploaded (pid_upload_session:ABIIV9xxKIaamuXP7ooP0pCkvQd0r_fwLzr92Zw5KZP7CxaizA, 10485760, 10240 KB)
+0075.907 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIV9xxKIaamuXP7ooP0pCkvQd0r_fwLzr92Zw5KZP7CxaizA, 11255906, 10240 KB)
+0077.484 (0) Recording as successfully uploaded: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip
+0077.490 (0) Deleting local file: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip: OK
+0077.492 (0) Dropbox: File upload success (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip): 10992 KB in 5s (1941 KB/s)
+0077.507 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,ext:mp3
+0077.509 (0) Looking for candidates to backup in: C:\Users\norde\Local Sites\vintagetasker\app\public/wp-content/uploads
+0077.511 (0) finding files: 2024: adding to list (1)
+0077.513 (0) finding files: rank-math: adding to list (2)
+0077.514 (0) finding files: wpcf7_uploads: adding to list (3)
+0077.516 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0077.552 (0) Total entities for the zip file: 6 directories, 74 files (0 skipped as non-modified), 36.7 MB
+0077.578 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (36.7 MB, 74 files batched, 73 (73) added so far); re-opening (prior size: 0 KB)
+0078.017 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1 s, rate: 26389.3 KB/s)
+0078.021 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4249091148376, normalised_time=0.97009019055256, max_time=78.017678022385, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0078.200 (0) Creating zip file manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip.list-temp.tmp)
+0078.203 (0) Successfully created zip file manifest (size: 4306)
+0078.523 (0) Created uploads zip (0) - 37608.4 KB in 1 s (37568.3 KB/s) (sha1: 3aecdab01a2ce9ee1457ce03f0bf8ad8b9322134, sha256: 41f9ceb8eb181c422b33ea5e3e729e09f95e3364ff6617eab987474061d6317e)
+0078.533 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0078.535 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-f44b4cf17e9b61cc41ef12e3a074be3a)
+0078.537 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0078.540 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0078.890 (0) Dropbox: quota usage: used=1765.3 MB, total=2048 MB, available=282.7 MB
+0078.893 (0) Dropbox: Attempt to upload: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip to: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip
+0081.495 (0) Dropbox chunked upload: 27.2 % uploaded (pid_upload_session:ABIIVwpqdR7ktM9o2PpWVaHBVQQofRdefa_M6xayrajUPtbAZA, 10485760, 10240 KB)
+0085.512 (0) Dropbox chunked upload: 54.5 % uploaded (pid_upload_session:ABIIVwpqdR7ktM9o2PpWVaHBVQQofRdefa_M6xayrajUPtbAZA, 20971520, 10240 KB)
+0088.080 (0) Dropbox chunked upload: 81.7 % uploaded (pid_upload_session:ABIIVwpqdR7ktM9o2PpWVaHBVQQofRdefa_M6xayrajUPtbAZA, 31457280, 10240 KB)
+0090.257 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIVwpqdR7ktM9o2PpWVaHBVQQofRdefa_M6xayrajUPtbAZA, 38511041, 10240 KB)
+0091.862 (0) Recording as successfully uploaded: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip
+0091.873 (0) Deleting local file: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip: OK
+0091.876 (0) Dropbox: File upload success (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip): 37608 KB in 12s (2896 KB/s)
+0091.893 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0091.895 (0) Does not exist: C:\Users\norde\Local Sites\vintagetasker\app\public/wp-content/mu-plugins
+0091.896 (0) There are no mu-plugins to backup. Will not raise an error.
+0091.898 (0) mu-plugins: create_zip returned an error
+0091.902 (0) Beginning backup of other directories found in the content directory (index: 0)
+0091.904 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log,ext:mp3
+0091.905 (0) Looking for candidates to backup in: C:\Users\norde\Local Sites\vintagetasker\app\public/wp-content
+0091.908 (0) finding files: index.php: adding to list (1)
+0091.911 (0) finding files: languages: adding to list (2)
+0091.912 (0) finding files: plugins: skipping: this is the plugins directory
+0091.914 (0) finding files: themes: skipping: this is the themes directory
+0091.916 (0) finding files: updraft: skipping: this is the updraft directory
+0091.917 (0) finding files: upgrade: skipping: excluded by options
+0091.919 (0) finding files: upgrade-temp-backup: adding to list (3)
+0091.921 (0) finding files: uploads: skipping: this is the uploads directory
+0091.963 (0) Total entities for the zip file: 3 directories, 142 files (0 skipped as non-modified), 7.1 MB
+0091.993 (0) Zip: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0095.169 (0) Creating zip file manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip.list-temp.tmp)
+0095.174 (0) Successfully created zip file manifest (size: 8505)
+0095.203 (0) Created others zip (0) - 1841.3 KB in 3.3 s (562 KB/s) (sha1: bfba0d5e221f0c33cbb5e5d926a0236ff7ecee88, sha256: 419b8203db71756d6759f12e057274190b93b0f3e4645a397f8ff80fad609ba2)
+0095.213 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0095.215 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-f44b4cf17e9b61cc41ef12e3a074be3a)
+0095.217 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0095.219 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0095.563 (0) Dropbox: quota usage: used=1802 MB, total=2048 MB, available=246 MB
+0095.565 (0) Dropbox: Attempt to upload: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip to: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip
+0097.203 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIV2FenIG3TieQEGf3qPOK8JAtVocEyWVDIkEWpCuW_vnbbA, 1885540, 10240 KB)
+0098.671 (0) Recording as successfully uploaded: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip
+0098.677 (0) Deleting local file: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip: OK
+0098.679 (0) Dropbox: File upload success (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip): 1841 KB in 3s (591 KB/s)
+0098.700 (0) Saving backup status to database (elements: 8)
+0098.705 (0) Beginning creation of database dump (WordPress DB)
+0098.707 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0098.741 (0) Table wp_options: Total expected rows (via COUNT): 271
+0098.742 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.790 (0) Table wp_options: Rows added in this batch (next record: 1506): 267 (uncompressed bytes in this segment=1131803) in 0.06 seconds
+0098.805 (0) Table wp_options: finishing file(s) (2, 254.4 KB)
+0098.816 (0) Table wp_users: Total expected rows (via COUNT): 1
+0098.818 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.823 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1384) in 0.01 seconds
+0098.834 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0098.852 (0) Table wp_usermeta: Total expected rows (via COUNT): 56
+0098.854 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.860 (0) Table wp_usermeta: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=5091) in 0.02 seconds
+0098.874 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0098.887 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 6
+0098.889 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.894 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 161): 6 (uncompressed bytes in this segment=4238) in 0.01 seconds
+0098.907 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0098.917 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0098.922 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0098.933 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0098.942 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0098.944 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.951 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=708) in 0.01 seconds
+0098.963 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0098.974 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 16
+0098.976 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0098.978 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 18): 16 (uncompressed bytes in this segment=2377) in 0.01 seconds
+0098.990 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0099.007 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0099.012 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0099.026 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0099.036 (0) Table wp_comments: Total expected rows (via COUNT): 8
+0099.040 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.045 (0) Table wp_comments: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=3994) in 0.01 seconds
+0099.058 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0099.071 (0) Table wp_links: Total expected rows (via COUNT): 0
+0099.076 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0099.087 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0099.103 (0) Table wp_postmeta: Total expected rows (approximate): 1602
+0099.118 (0) Table wp_postmeta: Rows added in this batch (next record: 1890): 1689 (uncompressed bytes in this segment=158522) in 0.02 seconds
+0099.133 (0) Table wp_postmeta: finishing file(s) (2, 20.5 KB)
+0099.146 (0) Table wp_posts: Total expected rows (via COUNT): 204
+0099.148 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.161 (0) Table wp_posts: Rows added in this batch (next record: 241): 204 (uncompressed bytes in this segment=145153) in 0.02 seconds
+0099.176 (0) Table wp_posts: finishing file(s) (2, 16.1 KB)
+0099.185 (0) Table wp_term_relationships: Total expected rows (approximate): 81
+0099.190 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 87 (uncompressed bytes in this segment=1893) in 0.01 seconds
+0099.201 (0) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0099.213 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 40
+0099.216 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.222 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 41): 40 (uncompressed bytes in this segment=3073) in 0.01 seconds
+0099.235 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0099.248 (0) Table wp_termmeta: Total expected rows (via COUNT): 2
+0099.250 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.256 (0) Table wp_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3265) in 0.01 seconds
+0099.269 (0) Table wp_termmeta: finishing file(s) (2, 0.9 KB)
+0099.281 (0) Table wp_terms: Total expected rows (via COUNT): 40
+0099.283 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.288 (0) Table wp_terms: Rows added in this batch (next record: 41): 40 (uncompressed bytes in this segment=2404) in 0.01 seconds
+0099.300 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0099.312 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0099.318 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=921) in 0.01 seconds
+0099.330 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.4 KB)
+0099.345 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 0
+0099.348 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1844) in 0.01 seconds
+0099.362 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 0.6 KB)
+0099.375 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 18
+0099.377 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.384 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=4276) in 0.01 seconds
+0099.394 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 1.1 KB)
+0099.407 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 0
+0099.412 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.01 seconds
+0099.422 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0099.435 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 21
+0099.437 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.443 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 177): 21 (uncompressed bytes in this segment=1099) in 0.01 seconds
+0099.455 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0099.465 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 1
+0099.467 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0099.470 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=917) in 0.01 seconds
+0099.482 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.5 KB)
+0099.493 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0099.498 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=548) in 0.01 seconds
+0099.510 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0099.519 (0) Table wp_wfls_settings: Total expected rows (approximate): 31
+0099.521 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 34 (uncompressed bytes in this segment=2397) in 0.00 seconds
+0099.533 (0) Table wp_wfls_settings: finishing file(s) (2, 1.1 KB)
+0099.535 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\norde\Local Sites\vintagetasker\app\public/wp-content/updraft/backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz (line 1925, C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\plugins\updraftplus\backup.php)
+0099.539 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_options.table.tmpr1507.gz (1/24/fopen): adding to final database dump
+0099.548 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_options.table.gz (2/24/fopen): adding to final database dump
+0099.551 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_users.table.tmpr2.gz (3/24/fopen): adding to final database dump
+0099.553 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_users.table.gz (4/24/fopen): adding to final database dump
+0099.555 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_usermeta.table.tmpr57.gz (5/24/fopen): adding to final database dump
+0099.558 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_usermeta.table.gz (6/24/fopen): adding to final database dump
+0099.560 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_actions.table.tmpr162.gz (7/24/fopen): adding to final database dump
+0099.564 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_actions.table.gz (8/24/fopen): adding to final database dump
+0099.566 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/24/fopen): adding to final database dump
+0099.569 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_claims.table.gz (10/24/fopen): adding to final database dump
+0099.571 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/24/fopen): adding to final database dump
+0099.574 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_groups.table.gz (12/24/fopen): adding to final database dump
+0099.576 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_logs.table.tmpr19.gz (13/24/fopen): adding to final database dump
+0099.579 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_actionscheduler_logs.table.gz (14/24/fopen): adding to final database dump
+0099.581 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_commentmeta.table.tmpr0.gz (15/24/fopen): adding to final database dump
+0099.584 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_commentmeta.table.gz (16/24/fopen): adding to final database dump
+0099.586 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_comments.table.tmpr10.gz (17/24/fopen): adding to final database dump
+0099.588 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_comments.table.gz (18/24/fopen): adding to final database dump
+0099.590 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_links.table.tmpr0.gz (19/24/fopen): adding to final database dump
+0099.593 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_links.table.gz (20/24/fopen): adding to final database dump
+0099.595 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_postmeta.table.tmpr1891.gz (21/24/fopen): adding to final database dump
+0099.597 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_postmeta.table.gz (22/24/fopen): adding to final database dump
+0099.600 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_posts.table.tmpr242.gz (23/24/fopen): adding to final database dump
+0099.603 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_posts.table.gz (24/24/fopen): adding to final database dump
+0099.605 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_term_relationships.table.tmpr100001.gz (25/24/fopen): adding to final database dump
+0099.608 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_term_relationships.table.gz (26/24/fopen): adding to final database dump
+0099.610 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_term_taxonomy.table.tmpr42.gz (27/24/fopen): adding to final database dump
+0099.612 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_term_taxonomy.table.gz (28/24/fopen): adding to final database dump
+0099.614 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_termmeta.table.tmpr3.gz (29/24/fopen): adding to final database dump
+0099.617 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_termmeta.table.gz (30/24/fopen): adding to final database dump
+0099.619 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_terms.table.tmpr42.gz (31/24/fopen): adding to final database dump
+0099.621 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_terms.table.gz (32/24/fopen): adding to final database dump
+0099.623 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_analytics_gsc.table.tmpr0.gz (33/24/fopen): adding to final database dump
+0099.625 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_analytics_gsc.table.gz (34/24/fopen): adding to final database dump
+0099.627 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_analytics_inspections.table.tmpr0.gz (35/24/fopen): adding to final database dump
+0099.630 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_analytics_inspections.table.gz (36/24/fopen): adding to final database dump
+0099.632 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_analytics_objects.table.tmpr19.gz (37/24/fopen): adding to final database dump
+0099.635 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_analytics_objects.table.gz (38/24/fopen): adding to final database dump
+0099.637 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_internal_links.table.tmpr0.gz (39/24/fopen): adding to final database dump
+0099.640 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_internal_links.table.gz (40/24/fopen): adding to final database dump
+0099.641 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_internal_meta.table.tmpr178.gz (41/24/fopen): adding to final database dump
+0099.644 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_rank_math_internal_meta.table.gz (42/24/fopen): adding to final database dump
+0099.646 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_wfls_2fa_secrets.table.tmpr2.gz (43/24/fopen): adding to final database dump
+0099.648 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_wfls_2fa_secrets.table.gz (44/24/fopen): adding to final database dump
+0099.651 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_wfls_role_counts.table.tmpr1.gz (45/24/fopen): adding to final database dump
+0099.653 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_wfls_role_counts.table.gz (46/24/fopen): adding to final database dump
+0099.655 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_wfls_settings.table.tmpr1001.gz (47/24/fopen): adding to final database dump
+0099.658 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db-table-wp_wfls_settings.table.gz (48/24/fopen): adding to final database dump
+0099.673 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz: finished writing out complete database file (306 KB)
+0099.695 (0) Total database tables backed up: 24 (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz, size: 313436, sha1: 5e4724fde8329d7ef14a4f0fba8112eccbb123ee, sha256: 7181d8f871c68a4553efb01230be68ec703e14544a97e7baf7ef0eeb714c7bba)
+0099.708 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip: plugins: This file has already been successfully uploaded
+0099.709 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip: themes: This file has already been successfully uploaded
+0099.711 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip: uploads: This file has already been successfully uploaded
+0099.713 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip: others: This file has already been successfully uploaded
+0099.716 (0) backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz: db: This file has not yet been successfully uploaded: will queue
+0099.717 (0) Saving backup history. Total backup size: 66.9 MB
+0099.722 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0099.728 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0099.730 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-f44b4cf17e9b61cc41ef12e3a074be3a)
+0099.732 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0099.735 (0) Dropbox: access gained; setting chunk size to: 10240 KB
+0100.034 (0) Dropbox: quota usage: used=1803.8 MB, total=2048 MB, available=244.2 MB
+0100.061 (0) Dropbox: Attempt to upload: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz to: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz
+0101.302 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIIV9MtDpOkRHibCAWwJa31wQOwsUYmC9G7M8gyqZqkAS4Uow, 313436, 10240 KB)
+0102.533 (0) Recording as successfully uploaded: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz
+0102.551 (0) Deleting local file: backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz: OK
+0102.553 (0) Dropbox: File upload success (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-db.gz): 306 KB in 2s (122 KB/s)
+0102.563 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=30
+0102.566 (0) Number of backup sets in history: 3; groups (db): 1
+0102.568 (0) Examining (for databases) backup set with group_id=0, nonce=fee9ae7175ac, datestamp=1728454762 (Oct 09 2024 06:19:22)
+0102.570 (0) This backup set is the backup set just made, so will not be deleted.
+0102.570 (0) Examining (for databases) backup set with group_id=0, nonce=f0385a3a94c6, datestamp=1727852226 (Oct 02 2024 06:57:06)
+0102.570 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0102.572 (0) Examining (for databases) backup set with group_id=0, nonce=a4f75ef7478d, datestamp=1727851470 (Oct 02 2024 06:44:30)
+0102.572 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0102.572 (0) Number of backup sets in history: 3; groups (files): 1
+0102.574 (0) Examining (for files) backup set with nonce=fee9ae7175ac, datestamp=1728454762 (Oct 09 2024 06:19:22)
+0102.574 (0) This backup set is the backup set just made, so will not be deleted.
+0102.576 (0) This backup set is the backup set just made, so will not be deleted.
+0102.577 (0) This backup set is the backup set just made, so will not be deleted.
+0102.577 (0) This backup set is the backup set just made, so will not be deleted.
+0102.577 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0102.579 (0) Examining (for files) backup set with nonce=f0385a3a94c6, datestamp=1727852226 (Oct 02 2024 06:57:06)
+0102.579 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0102.579 (0) Examining (for files) backup set with nonce=a4f75ef7478d, datestamp=1727851470 (Oct 02 2024 06:44:30)
+0102.579 (0) plugins: over retain limit (2); will delete this file entity
+0102.579 (0) themes: over retain limit (2); will delete this file entity
+0102.579 (0) uploads: over retain limit (2); will delete this file entity
+0102.579 (0) others: over retain limit (2); will delete this file entity
+0102.579 (0) Delete file: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-plugins.zip, service=dropbox
+0102.583 (0) Deleting local copy (backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-plugins.zip)
+0102.585 (0) Delete file: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-themes.zip, service=dropbox
+0102.588 (0) Deleting local copy (backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-themes.zip)
+0102.591 (0) Delete file: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-uploads.zip, service=dropbox
+0102.593 (0) Deleting local copy (backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-uploads.zip)
+0102.595 (0) Delete file: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-others.zip, service=dropbox
+0102.597 (0) Deleting local copy (backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-others.zip)
+0102.600 (0) Dropbox: request deletion: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-plugins.zip
+0102.903 (0) Dropbox: path_lookup/not_found/ (line: 294, file: C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0102.905 (0) Dropbox: deletion failed
+0102.907 (0) Dropbox: request deletion: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-themes.zip
+0103.228 (0) Dropbox: path_lookup/not_found/ (line: 294, file: C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0103.230 (0) Dropbox: deletion failed
+0103.232 (0) Dropbox: request deletion: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-uploads.zip
+0103.529 (0) Dropbox: path_lookup/not_found/ (line: 294, file: C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0103.531 (0) Dropbox: deletion failed
+0103.533 (0) Dropbox: request deletion: backup_2024-10-02-0644_vintagetasker_a4f75ef7478d-others.zip
+0103.902 (0) Dropbox: path_lookup/not_found/ (line: 294, file: C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\plugins\updraftplus\includes\Dropbox2\OAuth\Consumer\Curl.php)
+0103.906 (0) Dropbox: deletion failed
+0103.914 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0103.916 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0103.926 (0) Resume backup (fee9ae7175ac, 0): finish run
+0103.931 (0) Decremented the semaphore (fd) by 1
+0103.934 (0) Semaphore (fd) unlocked
+0103.936 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0103.943 (0) Deleting zip manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-plugins.zip.list.tmp)
+0103.945 (0) Deleting zip manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-themes.zip.list.tmp)
+0103.948 (0) Deleting zip manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-uploads.zip.list.tmp)
+0103.950 (0) Deleting zip manifest (backup_2024-10-09-0619_vintagetasker_fee9ae7175ac-others.zip.list.tmp)
+0103.953 (0) No email will/can be sent - the user has not configured an email address.
+0103.955 (0) The backup succeeded and is now complete
