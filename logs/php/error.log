@@ -602,3 +602,8 @@ Stack trace:
 [09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
 [09-Oct-2024 06:50:03 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
 [09-Oct-2024 06:50:51 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95

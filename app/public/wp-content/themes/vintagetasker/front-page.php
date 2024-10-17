@@ -31,7 +31,7 @@ get_header();
   </div>
 
     
-    <div class="shop-section">
+  <div class="shop-section">
     <?php
     $loop = new WP_Query(array(
         'post_type' => 'product',
@@ -47,6 +47,9 @@ get_header();
             $price = $product->get_price_html();
             $link = get_permalink();
             $image = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
+            
+            $overskrift = get_field('overskrift');
+            $beskrivelse = get_field('beskrivelse');
         ?>
             <div class="product">
                 <a href="<?php echo $link; ?>">
@@ -54,7 +57,11 @@ get_header();
                     <h3><?php echo esc_html($title); ?></h3>
                     <p><?php echo wp_kses_post($excerpt); ?></p>
                     <span class="price"><?php echo wp_kses_post($price); ?></span>
-                    <button class="buy-now">Buy Now</button>
+                    
+                    <p><strong>Nyhed</strong> <?php echo esc_html($overskrift); ?></p>
+                    <p><h4>Klassikeren der vil med dig hjem</h4><?php echo esc_html($beskrivelse); ?></p>
+
+                    <button class="buy-now">Køb nu</button>
                 </a>
             </div>
         <?php endwhile; ?>
@@ -63,7 +70,7 @@ get_header();
     endif;
     wp_reset_postdata();
     ?>
-  </div>
+</div>
 
   <?php
   $maerke1 = get_field('maerke1');
