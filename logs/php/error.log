@@ -607,3 +607,15 @@ Stack trace:
 [11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
 [11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
 [11-Oct-2024 08:44:57 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[20-Oct-2024 19:05:24 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[20-Oct-2024 19:05:24 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[20-Oct-2024 19:05:24 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[20-Oct-2024 19:05:24 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[20-Oct-2024 19:05:24 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95
+[20-Oct-2024 19:05:25 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Oct-2024 19:05:25 UTC] Cron reschedule event error for hook: wp_update_user_counts, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[20-Oct-2024 19:13:18 UTC] PHP Warning:  Undefined variable $billede_1 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 56
+[20-Oct-2024 19:13:18 UTC] PHP Warning:  Undefined variable $billede_2 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 59
+[20-Oct-2024 19:13:18 UTC] PHP Warning:  Undefined variable $billede_3 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 62
+[20-Oct-2024 19:13:18 UTC] PHP Warning:  Undefined variable $billede_4 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 92
+[20-Oct-2024 19:13:18 UTC] PHP Warning:  Undefined variable $billede_5 in C:\Users\norde\Local Sites\vintagetasker\app\public\wp-content\themes\vintagetasker\page-om-os.php on line 95

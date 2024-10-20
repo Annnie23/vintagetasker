@@ -151,26 +151,7 @@ p, li, span {
 
 
 
-/* Shop Section Styling */
-.shop-section {
-    padding: 50px 0;
-    text-align: center;
-    background-color: #f2f2f2;
-}
 
-.shop-title {
-    font-size: 40px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.shop-content {
-    font-size: 18px;
-    color: #666;
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
 
 /* Om os Section Styling */
 .about-section {
@@ -678,28 +659,29 @@ p, li, span {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.product {
+.product-forside {
     width: 22%;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
 }
-.product img {
+
+.product-forside img {
     max-width: 100%;
     height: auto;
 }
-.product h3 {
+.product-forside h3 {
     font-size: 18px;
     margin-top: 10px;
 }
-.product a {
+.product-forside a {
     text-decoration: none; /* Fjerner den blå underlinje */
     color: inherit; /* Sikrer, at farven ikke ændres */
 }
-.product a:hover {
+.product-forside a:hover {
     color: #000; /* Valgfrit: Tilføjer sort farve ved hover */
 }
-.product .price {
+.product-forside .price {
     color: #a8ad47;
     font-size: 16px;
     margin-top: 10px;
@@ -713,7 +695,301 @@ p, li, span {
     cursor: pointer;
 }
 
+.site-content{
+    padding: 20px;
+}
+.page-title{
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
-  
+.product {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.products-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.product a {
+    text-decoration: none;
+    color: inherit;
+}
+.product a:hover {
+    color: #000;
+}
+.product .price {
+    color: #a8ad47;
+    font-size: 16px;
+    margin-top: 10px;
+}
 
+.single_add_to_cart_button {
+    color: #a8ad47;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#product-277 > div.summary.entry-summary > form > button {
+    background-color: #a8ad47;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.woocommerce div.product form.cart div.quantity{
+    float: none;
+}
+
+tr{
+color: #a8ad47;
+}
+
+tr a{
+    color: #a8ad47;
+    text-decoration: none;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt {
+    background-color: #a8ad47;
+    color: #fff;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt:hover, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt:hover, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:hover, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt:hover {
+    background-color: #a8ad47; 
+    color: #fff;
+}
+
+.woocommerce-MyAccount-navigation {
+    flex: 0 0 25%;
+    margin-right: 20px; 
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.woocommerce-MyAccount-navigation li {
+    margin-bottom: 10px; 
+}
+
+.woocommerce-MyAccount-navigation a {
+    color: #333; 
+    font-weight: bold; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    display: block; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.woocommerce-MyAccount-navigation a:hover {
+    background-color: #a8ad47; 
+    color: #fff; 
+}
+
+.woocommerce-MyAccount-navigation-link.is-active a {
+    background-color: #a8ad47; 
+    color: #fff; 
+    border-radius: 5px; 
+}
+.woocommerce-MyAccount-content {
+    flex: 1; 
+    max-width: 75%; 
+    margin: 0; 
+}
+
+.woocommerce-MyAccount-content h2 {
+    font-size: 24px; 
+    color: #a8ad47; 
+    border-bottom: 2px solid #a8ad47; 
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+}
+
+.woocommerce-MyAccount-content p {
+    margin-bottom: 15px;
+}
+
+.woocommerce-MyAccount-content a {
+    color: #a8ad47; 
+    text-decoration: underline; 
+    transition: color 0.3s ease; 
+}
+
+.woocommerce-MyAccount-content a:hover {
+    color: #6e752e; 
+}
+
+.woocommerce-MyAccount-content form {
+    margin-top: 20px;
+}
+
+.woocommerce-MyAccount-content .button {
+    background-color: #a8ad47; 
+    color: #ffffff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.woocommerce-MyAccount-content .button:hover {
+    background-color: #6e752e;
+}
+
+.woocommerce-MyAccount {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.woocommerce-MyAccount-navigation {
+    flex: 0 0 25%; 
+    margin-right: 20px; 
+}
+
+.woocommerce-MyAccount-content {
+    flex: 1; 
+    max-width: 75%; 
+    margin: 0;
+}
+
+.woocommerce-LostPassword a {
+    text-decoration: none;
+    color: #a8ad47 ;
+}
+
+.showcoupon {
+    text-decoration: none;
+    color: #a8ad47;
+}
+.woocommerce-info::before {
+    display: none;
+}
+.woocommerce-info {
+    border-top-color: #a8ad47;
+}
+.woocommerce-checkout input[type="text"], 
+.woocommerce-checkout input[type="email"],
+.woocommerce-checkout input[type="tel"], 
+.woocommerce-checkout input[type="password"], 
+.woocommerce-checkout select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.woocommerce-checkout label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+.woocommerce-checkout button.button, 
+.woocommerce-checkout input[type="submit"] {
+    background-color: #a8ad47;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+.woocommerce-checkout button.button:hover, 
+.woocommerce-checkout input[type="submit"]:hover {
+    background-color: #6e752e;
+}
+.woocommerce-checkout-review-order {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+.woocommerce-checkout-review-order table {
+    width: 100%;
+}
+.woocommerce-checkout-review-order table th, 
+.woocommerce-checkout-review-order table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+    font-weight: bold;
+}
+.woocommerce-checkout-review-order table .woocommerce-Price-amount {
+    color: #a8ad47;
+}
+.woocommerce-checkout-payment {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+.woocommerce-checkout-payment ul {
+    list-style: none;
+    padding: 0;
+}
+.woocommerce-checkout-payment ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+.woocommerce-checkout-payment ul li input[type="radio"] {
+    margin-right: 10px;
+}
+.woocommerce-checkout-payment label {
+    font-weight: bold;
+}
+.woocommerce-checkout .form-row {
+    margin-bottom: 20px;
+}
+.woocommerce-checkout .woocommerce-info {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #eef5e5;
+    border-radius: 5px;
+    border-left: 5px solid #a8ad47;
+}
+.woocommerce-checkout .woocommerce-error {
+    background-color: #fce8e6;
+    color: #e60000;
+    border-left: 5px solid #e60000;
+}

@@ -51,7 +51,7 @@ get_header();
             $overskrift = get_field('overskrift');
             $beskrivelse = get_field('beskrivelse');
         ?>
-            <div class="product">
+            <div class="product-forside">
                 <a href="<?php echo $link; ?>">
                     <img src="<?php echo $image[0]; ?>" alt="<?php echo esc_attr($title); ?>" class="product-image" />
                     <h3><?php echo esc_html($title); ?></h3>
