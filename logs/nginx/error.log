@@ -1,0 +1,2 @@
+2024/10/23 11:53:16 [error] 6768#13108: *3999 directory index of "C:/Users/norde/Local Sites/vintagetasker/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "vintagetasker.local"
+2024/10/23 11:53:40 [error] 6768#13108: *4135 directory index of "C:/Users/norde/Local Sites/vintagetasker/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "vintagetasker.local"

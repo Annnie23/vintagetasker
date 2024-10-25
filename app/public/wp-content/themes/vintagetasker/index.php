@@ -1,6 +1,4 @@
 <?php
-/* Denne side er den side der vises når man trykker på "Blog" i menuen. Den viser alle blogindlæg i en liste. */
-
 get_header();
 ?>
 

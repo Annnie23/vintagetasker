@@ -1,4 +1,4 @@
-</div> <!-- #content -->
+</div>
     <footer class="site-footer">
         <div class="container">
             <div class="footer-info">

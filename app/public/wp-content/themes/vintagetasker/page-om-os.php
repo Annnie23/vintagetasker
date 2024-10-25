@@ -1,5 +1,4 @@
 <?php
-/* Template Name: Om os */
 get_header();
 ?>
 
@@ -23,9 +22,14 @@ get_header();
                 $engagement_content = pll__(get_field('engagement_content'));
                 $tak_titel = pll__(get_field('tak_titel'));
                 $tak_content = pll__(get_field('tak_content'));
+                $billede_1 = get_field('billede_1');
+                $billede_2 = get_field('billede_2');
+                $billede_3 = get_field('billede_3');
+                $billede_4 = get_field('billede_4');
+                $billede_5 = get_field('billede_5');
 
                 if ($om_os_titel) {
-                    echo '<h1 class="about- title">' . esc_html($om_os_titel) . '</h1>';
+                    echo '<h1 class="about-title">' . esc_html($om_os_titel) . '</h1>';
                 }
 
                 if ($velkommen_titel) {

@@ -1,6 +1,4 @@
 <?php
-/* Template for displaying individual blog posts */
-
 get_header();
 ?>
 
@@ -9,9 +7,8 @@ get_header();
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <div class="post">
                 <h1><?php the_title(); ?></h1>
-                <div class="post-meta">
+                <div class="posts-meta">
                     <span><?php the_date(); ?></span> by <span><?php the_author(); ?></span>
-                    <!-- Categories and Tags -->
                     <div class="post-categories">
                         <strong>Categories:</strong> <?php the_category(', '); ?>
                     </div>
@@ -24,7 +21,6 @@ get_header();
                 </div>
             </div>
 
-            <!-- Kommentarer Sektion -->
             <?php if (comments_open() || get_comments_number()) : ?>
                 <?php comments_template(); ?>
             <?php endif; ?>
